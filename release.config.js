@@ -1,5 +1,5 @@
 module.exports = {
-  branches: 'master',
+  branches: 'main',
   verifyConditions: [
     '@semantic-release/changelog',
     '@semantic-release/github',

@@ -3,7 +3,7 @@ name: Test
 on:
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   linux:
@@ -26,7 +26,7 @@ jobs:
       - run: |
           npm run commitlint -- \
           --verbose \
-          --from `git merge-base origin/master $GITHUB_SHA`
+          --from `git merge-base origin/main $GITHUB_SHA`
       - run: npm run lint
       - run: npm run test
   windows:
