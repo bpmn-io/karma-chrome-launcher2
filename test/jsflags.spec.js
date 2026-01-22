@@ -67,6 +67,8 @@ describe('headlessGetOptions', function () {
       '--headless',
       '--disable-gpu',
       '--disable-dev-shm-usage',
+      '--use-mock-keychain',
+      '--password-store=basic',
       '--remote-debugging-port=9222'
     ])
   })
@@ -83,7 +85,9 @@ describe('headlessGetOptions', function () {
       '--remote-debugging-port=9333',
       '--headless',
       '--disable-gpu',
-      '--disable-dev-shm-usage'
+      '--disable-dev-shm-usage',
+      '--use-mock-keychain',
+      '--password-store=basic'
     ])
   })
 })

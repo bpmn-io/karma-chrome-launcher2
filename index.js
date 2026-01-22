@@ -170,7 +170,9 @@ function headlessGetOptions (url, args, parent) {
   var mergedArgs = parent.call(this, url, args).concat([
     '--headless',
     '--disable-gpu',
-    '--disable-dev-shm-usage'
+    '--disable-dev-shm-usage',
+    '--use-mock-keychain',
+    '--password-store=basic'
   ])
 
   var isRemoteDebuggingFlag = function (flag) {
