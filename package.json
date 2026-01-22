@@ -8,7 +8,6 @@
     "integration-test": "npx karma start examples/simple/karma.conf.js --single-run --browsers ChromeHeadless",
     "unit-test": "npx mocha test/*",
     "test": "npm run unit-test && npm run integration-test",
-    "release": "semantic-release",
     "commitlint": "commitlint"
   },
   "repository": {
@@ -28,13 +27,10 @@
   "devDependencies": {
     "@commitlint/cli": "^20.3.1",
     "@commitlint/config-angular": "^20.3.1",
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
     "chai": "^6.2.2",
     "karma": "^6.4.4",
     "karma-mocha": "2.x",
     "mocha": "^11.7.5",
-    "semantic-release": "^25.0.2",
     "sinon": "^21.0.1",
     "standard": "^17.1.2"
   },
