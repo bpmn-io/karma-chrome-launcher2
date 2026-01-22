@@ -1,15 +1,15 @@
-# karma-chrome-launcher2
+# karma-chrome-launcher-2
 
 
 > Fork of unmaintained [karma-chrome-launcher](https://github.com/karma-runner/karma-chrome-launcher).
 
 ## Installation
 
-The easiest way is to keep `karma-chrome-launcher2` as a devDependency in your `package.json`,
+The easiest way is to keep `karma-chrome-launcher-2` as a devDependency in your `package.json`,
 by running
 
 ```bash
-$ npm i -D karma-chrome-launcher2
+$ npm i -D karma-chrome-launcher-2
 ```
 
 ## Configuration
@@ -68,7 +68,7 @@ platforms and contains everything you need to run it from within your CI.
 
 #### Usage
 ```bash
-$ npm i -D puppeteer karma-chrome-launcher
+$ npm i -D puppeteer karma-chrome-launcher-2
 ```
 
 ```js
