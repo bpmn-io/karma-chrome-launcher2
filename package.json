@@ -22,21 +22,21 @@
   ],
   "author": "Vojta Jina <vojta.jina@gmail.com>",
   "dependencies": {
-    "which": "^1.2.1"
+    "which": "^6.0.0"
   },
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-angular": "^12.1.4",
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.1",
-    "chai": "^4.2.0",
-    "karma": "^6.4.1",
-    "karma-mocha": "1.x || ^0.2.0",
-    "mocha": "^5.2.0",
-    "semantic-release": "^17.0.1",
-    "sinon": "^7.1.1",
-    "standard": "^12.0.0"
+    "@commitlint/cli": "^20.3.1",
+    "@commitlint/config-angular": "^20.3.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "chai": "^6.2.2",
+    "karma": "^6.4.4",
+    "karma-mocha": "2.x",
+    "mocha": "^11.7.5",
+    "semantic-release": "^25.0.2",
+    "sinon": "^21.0.1",
+    "standard": "^17.1.2"
   },
   "contributors": [
     "Mark Ethan Trostler <mark@zzo.com>",
